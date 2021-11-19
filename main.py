@@ -7,18 +7,19 @@ import streamlit as st
 import streamlit.components.v1 as stc
 import codecs
 
-_2019=st.container()
-index=st.container()
 
-def index_htmpage(index_htm, width=900,height=900):
+
+def index_htmpage(index_htm, width=800,height=1600):
     f=codecs.open(index_htm,'r')
     page=f.read()
     stc.html(page, width=width,height=height, scrolling=False)
 
 
 def main():
-
-
+    _2019 = st.container()
+    routes = st.container()
+    states = st.container()
+    index = st.container()
     #dash=st.container()
     #with dash:
     html_tmp = """
@@ -28,15 +29,16 @@ def main():
     #index_htmpage('index.html')
 
     with _2019:
-        st.title('My dashboard!')
         index_htmpage('2020vs2019.html')
+
+    with routes:
+        index_htmpage('routes.html')
+
+    with states:
+        index_htmpage('states.html')
 
     with index:
         index_htmpage('index.html')
-
-
-
-
 
 
 
