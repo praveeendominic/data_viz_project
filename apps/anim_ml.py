@@ -18,5 +18,5 @@ def app():
         anim.title('Regression')
         index_htmpage('regression.html', width=1100, height=1000)  #
     with clust:
-        anim.title('Clustering & Forescasting')
+        clust.title('Clustering & Forescasting')
         index_htmpage('clustering_forecasting.html', width=1100, height=1000)  #
