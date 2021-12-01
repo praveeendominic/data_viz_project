@@ -16,6 +16,7 @@ def app():
     _2019 = st.container()  # 800*700
     routes = st.container()  # 800*1000
     states = st.container()
+    story=st.container()
     anim = st.container()
     index = st.container()
     dash = st.container()
@@ -28,7 +29,7 @@ def app():
 
     with _2019:
         _2019.title('2020 vs 2019')
-        index_htmpage('2020vs2019.html', width=1000, height=800)  #
+        index_htmpage('2020vs2019.html', width=1000, height=800)  #width=1000, height=1100
         # _2019.text('dgkjdgndkjgnkdfjngkfdjngkdfjgnkfjdgnkdfjngdgnkdjfngkfdjngkdjngfdkj')
 
     # index_htmpage('routes.html')
@@ -36,11 +37,15 @@ def app():
 
     with routes:
         routes.title('Routes')
-        index_htmpage('routes.html', width=1000, height=1100)
+        index_htmpage('routes.html', width=1000, height=900)#height=1100
 
     with states:
         states.title('State viz analysis')
-        index_htmpage('states.html', width=1000, height=1100)
+        index_htmpage('states.html', width=1000, height=800)
+
+    with story:
+        story.title('Summary Inference')
+        index_htmpage('impact_story.html', width=1100, height=1400)
 
     #def main():
 
