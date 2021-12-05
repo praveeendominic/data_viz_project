@@ -28,6 +28,7 @@ def app():
     # index_htmpage('index.html')
 
     with _2019:
+        _2019.title('DESCRIPTIVE ANALYTICS')
         _2019.title('2020 vs 2019')
         index_htmpage('2020vs2019.html', width=1000, height=800)  #width=1000, height=1100
         # _2019.text('dgkjdgndkjgnkdfjngkfdjngkdfjgnkfjdgnkdfjngdgnkdjfngkfdjngkdjngfdkj')
@@ -36,12 +37,12 @@ def app():
     # index_htmpage('states.html')
 
     with routes:
-        routes.title('Routes')
+        routes.title('Route wise impact analysis')
         index_htmpage('routes.html', width=1000, height=900)#height=1100
 
     with states:
-        states.title('State viz analysis')
-        index_htmpage('states.html', width=1000, height=800)
+        states.title('State & City wise impact analysis')
+        index_htmpage('states.html', width=1000, height=800)#py 1000,800   tableau  800,700
 
     with story:
         story.title('Summary Inference')
