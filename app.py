@@ -9,7 +9,9 @@ st.markdown("""
 # Impact of the Covid-19 pandemic on America’s airline industry since the onset of the pandemic
 ## Data Visualization - Final Project
 ### Group 11
-### Praveen  Dominic Dharmalinga Pandian (0691527) & Niranjan Purushothaman (11111)
+### Praveen  Dominic Dharmalinga Pandian (0691527) & Niranjan Purushothaman (0704586)
+#### Dr. Fadi Alzhouri 
+
 """)
 
 #st.write('In this app, we will be building a series of visualizations that show how bad USA was impacted during the onset of Covid-19 in 2020. Also, we have used some ml algorithms like regression, clustering and forecasting to predict the near future recovery status of the airline industry.')
