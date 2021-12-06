@@ -10,7 +10,7 @@ st.markdown("""
 ## Data Visualization - Final Project
 ### Group 11
 ### Praveen  Dominic Dharmalinga Pandian (0691527) & Niranjan Purushothaman (0704586)
-#### Dr. Fadi Alzhouri 
+#### Instructor: Dr. Fadi Alzhouri 
 
 """)
 
