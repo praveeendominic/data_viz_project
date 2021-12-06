@@ -2,7 +2,7 @@ import streamlit as st
 
 def app():
     st.write('This is the `home page` of this app.')
-    st.title('Project Objectives:')
+    st.title('Objectives:')
     st.write(
     'It’s difficult to overstate just how much the COVID-19 pandemic has devastated airlines.'
     'Financial woes aside, the pandemic’s longer-term effects on aviation are emerging.'
