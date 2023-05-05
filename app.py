@@ -8,8 +8,7 @@ app = MultiApp()
 st.markdown("""
 # Impact of the Covid-19 pandemic on America’s airline industry since the onset of the pandemic
 ## Data Visualization - Final Project
-### Group 11
-### Praveen  Dominic Dharmalinga Pandian (0691527) & Niranjan Purushothaman (0704586)
+### Praveen  Dominic Dharmalinga Pandian (0691527)
 #### Instructor: Dr. Fadi Alzhouri 
 
 """)
